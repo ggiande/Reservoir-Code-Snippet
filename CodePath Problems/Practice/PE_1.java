@@ -12,7 +12,8 @@ public class PE_1 {
         // Sum of natural numbers below 10 is
         // 3, 5, 6, 9 -> Sum = 23
         // MATCH - Never seen before
-        // PLAN - Simple iteration of natural and divisble (3 or 5) numbers, Sum them from 1-1000
+        // PLAN 
+            // Simple iteration of natural and divisble (3 or 5) numbers, Sum them from 1-1000
         // IMPLEMENT
         int max = 1000;
         int sum = 0;
@@ -26,7 +27,9 @@ public class PE_1 {
             }
         }
         System.out.println(sum);
-        // REVIEW max = 10, sum =23, max=1000, sum=233168
-        // EVALUATE - O(n), Future: Only use the i values of numbers that are divisible
+        // REVIEW 
+            // max = 10, sum =23, max=1000, sum=233168
+        // EVALUATE 
+            //- O(n), Future: Only use the i values of numbers that are divisible
     }
 }
