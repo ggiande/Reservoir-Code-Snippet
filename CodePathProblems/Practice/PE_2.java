@@ -1,5 +1,3 @@
-import java.time.Year;
-
 /*Source: https://projecteuler.net/problem=2
 * Author: Giancarlo Garcia Deleon
 * Problem: Even Fibonacci numbers - Problem 2
@@ -17,25 +15,26 @@ public class PE_2 {
         // MATCH - Basic Fibonnacci
         // PLAN - 1. Write the Fibonnaci Sequence until 4,000,000 2. On even numbers, we add to a sum
         // IMPLEMENT
-        int max = 4000000;
-        int sum = 1;
+        int MAX = 4000000;
+        int sum = 0;
         int prev = 1;
-        int newsum = 0;
+        int newsum = prev;
         int independentSum = 0;
 
-        for (int i = 1; i < max; i++) {
+        while (prev + sum < MAX) {
             newsum = prev + sum;
-            sum = prev;
-            prev = newsum;
-            // System.out.println(newsum);
+            prev = sum;
+            sum = newsum;
+
             if (newsum % 2 == 0){
-                //System.out.println(newsum);
                 independentSum += newsum;
-                // System.out.println(independenetSum);
             }
         }
         System.out.println(independentSum);
         // REVIEW
+            // int MAX = 4000000; -> 4613732
         // EVALUATE
+            // Time Complexity - O(n)
+            // Space Complexity - O(n)
     }    
 }
