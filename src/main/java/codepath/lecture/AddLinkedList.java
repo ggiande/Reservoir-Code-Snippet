@@ -3,7 +3,6 @@ package codepath.lecture;
 public class AddLinkedList {
 
     public static void main(String[] args) {
-
         Node head = new Node(6);
         Node nodeB = new Node(7);
         Node nodeC = new Node(8);
