@@ -1,5 +1,5 @@
 package codepath.lecture;
-import codepath.lecture.datastructures.TreeNode;
+import datastructures.TreeNode;
 public class IncompleteIdenticalBinaryTrees {
     public static void main(String[] args) {
         TreeNode p = new TreeNode(1, new TreeNode(2, null, null), new TreeNode(3, null, null));

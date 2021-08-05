@@ -1,4 +1,4 @@
-package hackerrank;
+package hackerrank.practice;
 
 public class ConvertIntegerToString {
 

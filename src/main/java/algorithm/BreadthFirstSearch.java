@@ -1,5 +1,5 @@
 package algorithm;
-import codepath.lecture.datastructures.TreeNode;
+import datastructures.TreeNode;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
@@ -25,7 +25,6 @@ public class BreadthFirstSearch {
         Queue<TreeNode> queue = new LinkedList<>(); // used for traversing
         queue.offer(root);
         List<Double> res = new ArrayList<>();
-
         while(!queue.isEmpty()){
             int size = queue.size();
             double sum = 0;
@@ -37,6 +36,6 @@ public class BreadthFirstSearch {
             }
             res.add(sum/(double)size);
         }
-        return res;
+        return null;
     }
 }

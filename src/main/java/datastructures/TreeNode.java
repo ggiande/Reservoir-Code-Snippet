@@ -1,4 +1,4 @@
-package codepath.lecture.datastructures;
+package datastructures;
 public class TreeNode {
     public int val;
     public TreeNode left;

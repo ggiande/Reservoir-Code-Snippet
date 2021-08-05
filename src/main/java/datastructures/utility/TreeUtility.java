@@ -1,6 +1,6 @@
-package codepath.lecture.datastructures.utility;
+package datastructures.utility;
 
-import codepath.lecture.datastructures.TreeNode;
+import datastructures.TreeNode;
 
 public class TreeUtility {
     public static void printInOrder (TreeNode root){
