@@ -1,9 +1,8 @@
 package hackerrank.practice;
-class Node {
-    int data;
-    Node left;
-    Node right;
-}
+
+import datastructures.Node;
+import datastructures.TreeNode;
+
 public class PreorderTraversal {
     public static void preOrder(Node root) {
         // base case
