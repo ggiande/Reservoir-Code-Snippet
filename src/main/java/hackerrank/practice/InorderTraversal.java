@@ -1,14 +1,14 @@
 package hackerrank.practice;
 import hackerrank.datastructure.Node;
-public class PreorderTraversal {
-    public static void preOrder(Node root) {
+public class InorderTraversal {
+    public static void inOrder(Node root) {
         // base case
         if (root == null) return;
+        // left
+        inOrder(root.left);
         // root
         System.out.print(root.data + " ");
-        // left
-        preOrder(root.left);
         //right
-        preOrder(root.right);
+        inOrder(root.right);
     }
 }

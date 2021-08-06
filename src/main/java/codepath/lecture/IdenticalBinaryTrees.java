@@ -1,9 +1,24 @@
 package codepath.lecture;
 import datastructures.TreeNode;
-public class IncompleteIdenticalBinaryTrees {
+// Problem 1: Identical Trees
+// Given two binary trees, write a function to check if they are the same or not. Two binary trees are considered the same if they are structurally identical and the nodes have the same value.
+/*
+      1
+    /  \
+   2    3
+         \
+          4
+
+      3
+     /  \
+     1  4
+    /
+   2
+*/
+public class IdenticalBinaryTrees {
     public static void main(String[] args) {
         TreeNode p = new TreeNode(1, new TreeNode(2, null, null), new TreeNode(3, null, null));
-        TreeNode q = new TreeNode(1, new TreeNode(6, null, null), new TreeNode(3, null, null));
+        TreeNode q = new TreeNode(1, new TreeNode(2, null, null), new TreeNode(3, null, null));
         System.out.println(isSameTree(p, q));
     }
     public static boolean isSameTree(TreeNode p, TreeNode q) {
