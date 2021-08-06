@@ -1,5 +1,5 @@
 package hackerrank.practice;
-import hackerrank.datastructure.Node;
+import datastructures.Node;
 public class PreorderTraversal {
     public static void preOrder(Node root) {
         // base case
