@@ -1,6 +1,6 @@
 package codepath.lecture;
-import datastructures.TreeNode;
-import datastructures.utility.TreeUtility;
+import datastructure.TreeNode;
+import datastructure.utility.TreeUtility;
 public class InsertIntoBST {
     public static void main(String[] args) {
         TreeNode p = new TreeNode(1, new TreeNode(2, null, null), new TreeNode(3, null, null));

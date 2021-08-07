@@ -1,6 +1,6 @@
-package datastructures.utility;
+package datastructure.utility;
 
-import datastructures.TreeNode;
+import datastructure.TreeNode;
 
 public class TreeUtility {
     public static void printInOrder (TreeNode root){

@@ -1,5 +1,5 @@
 package hackerrank.practice;
-import hackerrank.datastructure.Node;
+import datastructure.Node;
 public class PostorderTraversal {
     public static void postOrder(Node root) {
         // base case
@@ -12,4 +12,3 @@ public class PostorderTraversal {
         System.out.print(root.data + " ");
     }
 }
-

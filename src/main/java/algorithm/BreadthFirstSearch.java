@@ -1,5 +1,5 @@
 package algorithm;
-import datastructures.TreeNode;
+import datastructure.TreeNode;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
