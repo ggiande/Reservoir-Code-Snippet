@@ -8,11 +8,11 @@ public class InsertIntoBST {
         TreeUtility.printInOrder(root);
     }
     public static TreeNode insertIntoBST(TreeNode root, int val) {
-        if (root == null){
+        if (root == null) {
             return new TreeNode(val);
         }
         // check if root.val is > val
-        else if (root.val > val){
+        else if (root.val > val) {
         // go left root.left = insertIntoBST(root.left, val)
             root.left = insertIntoBST(root.left, val);
         // else
