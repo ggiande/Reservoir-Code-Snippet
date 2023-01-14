@@ -4,7 +4,7 @@ public class BinaryRepresentation {
     // Write a method that returns a binary representation of an integer as a string
     // EX: 7 -> 111
     public static void main(String[] args) {
-        System.out.println("7 : " + convertBinary(7));
+        System.out.println("Decimal : " + convertBinary(11));
     }
 
     public static String convertBinary(int num) {
