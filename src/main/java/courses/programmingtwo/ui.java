@@ -11,11 +11,9 @@ import java.util.Stack;
  * Please follow the directions thankyou.
  */
 public class ui {
-
-
 	public void check(String inputString) {
-		Stack<Character> stack = new Stack<Character>(); 
-		LinkedList<Character> queue = new LinkedList<Character>();
+		Stack<Character> stack = new Stack<>();
+		LinkedList<Character> queue = new LinkedList<>();
 
 		System.out.println("Your input string was condensed to: " + inputString);
 		for (int i = 0; i < inputString.length(); i++) {
