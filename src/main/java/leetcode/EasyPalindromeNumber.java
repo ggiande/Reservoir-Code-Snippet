@@ -8,7 +8,7 @@ public class EasyPalindromeNumber {
 
     public static boolean isPalindrome(int x) {
         int input = x;
-        if (x < 0){
+        if (x < 0) {
             return false;
         }
         int reversedNum = 0;
@@ -19,7 +19,7 @@ public class EasyPalindromeNumber {
             reversedNum = reversedNum * 10 + temp;
         }
         // Compare the reversed number with the original number
-        if (reversedNum == input){
+        if (reversedNum == input) {
             return true;
         }
         return false;

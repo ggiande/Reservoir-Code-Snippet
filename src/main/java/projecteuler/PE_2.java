@@ -12,7 +12,7 @@ public class PE_2 {
         // UNDERSTAND - Find fibonnaci sum of 4,000,000 ONLY adding to the sum even numbers
         // Max = 10, Sum = 2 + 8 = 10 
         // MATCH - Basic Fibonnacci
-        // PLAN - 1. Write the Fibonnaci Sequence until 4,000,000 2. On even numbers, we add to a sum
+        // PLAN - 1. Write the Fibonacci Sequence until 4,000,000 2. On even numbers, we add to a sum
         // IMPLEMENT
         int MAX = 4000000;
         int sum = 0;

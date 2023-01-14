@@ -2,6 +2,7 @@ package unchecked;
 
 public class DrawTriangles {
     private int stars, lines, spaces;
+
     // This method draws the first triangle
     public void triangle1(int choice) {
         for (lines = 1; lines <= choice; lines++) {

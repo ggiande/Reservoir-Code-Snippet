@@ -6,15 +6,16 @@ public class BinaryRepresentation {
     public static void main(String[] args) {
         System.out.println("7 : " + convertBinary(7));
     }
-    public static String convertBinary(int num){
+
+    public static String convertBinary(int num) {
         int[] binary = new int[40];
         int index = 0;
-        while(num > 0){
-            binary[index++] = num%2;
+        while (num > 0) {
+            binary[index++] = num % 2;
             num /= 2;
         }
         StringBuilder sb = new StringBuilder();
-        for(int i = index - 1; i >= 0; i--){
+        for (int i = index - 1; i >= 0; i--) {
             sb.append(binary[i]);
         }
         return sb.toString();

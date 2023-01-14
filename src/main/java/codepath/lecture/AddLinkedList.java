@@ -11,25 +11,25 @@ public class AddLinkedList {
         head.next = nodeB;
         nodeB.next = nodeC;
         nodeC.next = nodeD;
-        
     }
 
     // Init a Linked List
-    public static class Node{
+    public static class Node {
         int data;
         Node next; // points to null by default
-        Node(int data){
-            this.data = data;	
+
+        Node(int data) {
+            this.data = data;
         }
     }
 
 
-    public static Node oddEvent(Node head){
-        if (head != null){
+    public static Node oddEvent(Node head) {
+        if (head != null) {
             Node odd = head;
             Node even = head.next;
             Node evenhead = even;
-            while (even != null && even.next != null){
+            while (even != null && even.next != null) {
                 odd.next = odd.next.next;
                 even.next = even.next.next;
                 odd = odd.next.next;

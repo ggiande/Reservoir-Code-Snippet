@@ -1,8 +1,9 @@
-package unchecked;/* CHECK FOR PRIME NUMBERS BETWEEN TWO GIVEN ITERVALS*/
+package unchecked;
+/* CHECK FOR PRIME NUMBERS BETWEEN TWO GIVEN INTERVALS*/
 
-import java.util.*;
+import java.util.Scanner;
 
-public class stprime{
+public class stprime {
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);

@@ -1,7 +1,8 @@
 package codepath.lecture;
+
 /**
  * Given a node, return the length of the linked list
- *
+ * <p>
  * Input: 1 ; Return: 1
  * Input 1->2->3 ; Return 3
  **/
@@ -14,6 +15,7 @@ public class LinkedListLength {
         n1.next = n2;
         System.out.println("Test 2 passed: " + (getLength(n1) == 2));
     }
+
     public static int getLength(ListNode node) {
         int length = 0;
         while (node != null) {
@@ -22,9 +24,11 @@ public class LinkedListLength {
         }
         return length;
     }
+
     public static class ListNode {
         int data;
         ListNode next;
+
         ListNode(int data) {
             this.data = data;
         }

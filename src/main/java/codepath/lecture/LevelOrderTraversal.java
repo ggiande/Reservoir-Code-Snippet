@@ -1,6 +1,7 @@
 package codepath.lecture;
 
 import datastructure.TreeNode;
+
 import java.util.ArrayList;
 
 /*
@@ -10,10 +11,6 @@ According to the definition of LCA on Wikipedia: “The lowest common ancestor i
 */
 public class LevelOrderTraversal {
 
-    public static void main(String[] args) {
-
-    }
-
     public void levelOrder(TreeNode root) {
         levelOrder(root, new ArrayList<>(), 0);
     }
@@ -22,7 +19,7 @@ public class LevelOrderTraversal {
         // Level is 0
         // Do BFS, then store nodes in a list of lists
         // exit condition
-        if(root == null) {
+        if (root == null) {
             return;
         }
         // not exit logic to call recursive function, add the root value
