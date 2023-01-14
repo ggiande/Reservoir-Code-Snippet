@@ -3,7 +3,6 @@ package unchecked;
 import java.util.Scanner;
 
 public class Menus {
-    
 
     DrawTriangles triangle = new DrawTriangles();
 

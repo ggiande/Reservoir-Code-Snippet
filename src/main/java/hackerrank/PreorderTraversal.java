@@ -1,4 +1,4 @@
-package hackerrank.practice;
+package hackerrank;
 import datastructure.Node;
 public class PreorderTraversal {
     public static void preOrder(Node root) {

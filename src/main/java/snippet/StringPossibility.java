@@ -1,10 +1,13 @@
 package snippet;
+
 import java.util.ArrayList;
 import java.util.Arrays;
+
 /* 	Author: Giancarlo Garcia Deleon
  * 	Date: 11/13/2019
  * Tests whether character arrays can form given strings.
  */
+
 public class StringPossibility {
     public static void main(String[] args) {
         String targetWord = "Hello World!";
@@ -18,19 +21,19 @@ public class StringPossibility {
 
     private static void validateStringPossibility(String targetWord, StringBuilder sb, ArrayList<Character> list) {
         /* Checks if string is empty */
-        if(targetWord.length() == 0){
+        if (targetWord.length() == 0) {
             System.out.println("Provided any empty target word");
             return;
         }
 
-        for(int i = 0; i < targetWord.length(); i++){
-            if(list.contains(targetWord.charAt(i))){
+        for (int i = 0; i < targetWord.length(); i++) {
+            if (list.contains(targetWord.charAt(i))) {
                 sb.append(targetWord.charAt(i));
             }
         }
 
         /* Checks to see if original string matches the string that can be constructed given the characters. */
-        if(sb.toString().equals(targetWord)){
+        if (sb.toString().equals(targetWord)) {
             System.out.println("TRUE");
         } else {
             System.out.println("FALSE");

@@ -1,4 +1,4 @@
-package hackerrank.practice;
+package hackerrank;
 import java.util.Scanner;
 public class JavaStaticInitializerBlock {
     static Scanner scan = new Scanner(System.in);

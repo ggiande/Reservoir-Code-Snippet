@@ -1,4 +1,4 @@
-package hackerrank.practice;
+package hackerrank;
 import datastructure.Node;
 public class PostorderTraversal {
     public static void postOrder(Node root) {
