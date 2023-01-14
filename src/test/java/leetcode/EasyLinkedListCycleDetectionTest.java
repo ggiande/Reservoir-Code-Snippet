@@ -1,15 +1,16 @@
-package algorithm;
+package leetcode;
 
 import datastructure.ListNode;
 import junit.framework.TestCase;
 
-public class SinglyCycleDetectionTest extends TestCase {
-    SinglyCycleDetection singlyCycleDetection;
+public class EasyLinkedListCycleDetectionTest extends TestCase {
+    EasyLinkedListCycleDetection easyLinkedListCycleDetection;
 
     public void setUp() throws Exception {
         super.setUp();
-        singlyCycleDetection = new SinglyCycleDetection();
+        easyLinkedListCycleDetection = new EasyLinkedListCycleDetection();
     }
+
     public void testHasCycleWhenTrue() {
 
         // To populate linked list, create the new nodes (point to null)
@@ -26,7 +27,7 @@ public class SinglyCycleDetectionTest extends TestCase {
         nodeD.next = nodeE;
         nodeE.next = nodeC;
 
-        assertTrue(singlyCycleDetection.hasCycle(head));
+        assertTrue(easyLinkedListCycleDetection.hasCycle(head));
     }
 
     public void testHasCycleWhenFalse() {
@@ -43,6 +44,6 @@ public class SinglyCycleDetectionTest extends TestCase {
         nodeC.next = nodeD;
         nodeD.next = nodeE;
 
-        assertFalse(singlyCycleDetection.hasCycle(head));
+        assertFalse(easyLinkedListCycleDetection.hasCycle(head));
     }
 }
